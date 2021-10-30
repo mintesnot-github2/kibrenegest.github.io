@@ -1,0 +1,194 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+
+}
+body{
+    position: absolute;
+     width: 1440px;
+     height: 2268px;
+     background: #000000;
+     font-family: Raleway;
+     font-style: normal;
+}
+.nav-container{
+    
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    
+
+border: 1px solid #3D3D3D;
+box-sizing: border-box;
+
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+  }
+
+  nav ul {
+    display: flex;
+  }
+    
+  .shape ul{
+    display: flex;
+}
+
+  nav .logo{
+    position: absolute;
+    width: 42px;
+    height: 30px;
+    left: 30px;
+    top: 5px;
+    
+    
+  }
+   nav .logo-name {
+   
+    position: absolute;
+    width: 266px;
+    height: 40px;
+    left: 90px;
+    top: 6px;
+    font-family: Ethiopic Hiwua ;
+    font-style:  medium;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    
+    
+    color: #FFFFFF;
+    
+
+   }
+
+  .nav-items li {
+    list-style: none;
+    margin-right: 106px; 
+  }
+
+  .nav-items li:nth-last-of-type(1) {
+    margin: 0;
+  }
+
+  .nav-items li {
+
+      color: #ffffff;
+      opacity: 60%;
+      font-family: Raleway;
+      font-style: normal;
+      
+}
+
+.shape li{
+    list-style: none;
+    margin-right: 50px;
+ }
+
+ .shape li:nth-last-of-type(1) {
+    margin: 0;
+  }
+ .shape {
+    position: absolute;
+    width: 112px;
+
+    height: 31px;
+    left: 704px;
+    top: 22px;
+}
+
+
+
+.header-content{
+  background: #000000 ;
+  
+}
+.shape1{
+  position: absolute;
+
+left: 220px;
+top: 100px;
+
+
+}
+.shape1_image{
+  width: 900px;
+height: 400px;
+  object-fit: scale-down;
+
+
+}
+
+
+
+ .two-logo{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 622px;
+  top: 190px;
+ }
+ 
+ .bold-title{
+  position: absolute;
+  width: 1044px;
+  height: 85px;
+  left: 320px;
+  top: 295px;
+  
+  font-family: Ethiopic Hiwua;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 85px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+  
+ }
+ header h1{
+  position: absolute;
+  width: 1131px;
+  height: 69px;
+  left: 550px;
+  top: 390px;
+  
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  
+  color: #FFFFFF;
+
+ }
+
+ .column{
+   
+  position: relative;
+  float: left;
+  margin-left: 25px;
+  width: 270px;
+  left: 79px;
+  top: 500px;
+  
+ }
+
+ .row::after {
+   content: "";
+  display: table;
+  clear: both;
+ }
+ 
